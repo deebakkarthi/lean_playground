@@ -1,0 +1,15 @@
+name = "software_logic"
+version = "0.1.0"
+defaultTargets = ["software_logic"]
+
+[[lean_lib]]
+name = "SoftwareLogic"
+
+[[lean_exe]]
+name = "software_logic"
+root = "Main"
+
+
+[[require]]
+name = "mathlib"
+scope = "leanprover-community"
